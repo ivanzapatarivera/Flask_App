@@ -1,10 +1,10 @@
-from base import db,Puppy
+from basic import db,Puppy
 
 # CREATES ALL THE TABLES Model --> Db Table
 db.create_all()
 
-sam = Puppy('Sammy', 3)
-frank = Puppy('Frankie', 4)
+sam = Puppy('Sammy', 3, 'German Shepherd')
+frank = Puppy('Frankie', 4, 'Maltese Poodle')
 
 print(sam.id)
 print(frank.id)

@@ -1,7 +1,7 @@
-from base import db,Puppy
+from basic import db,Puppy
 
 ## CREATE ##
-my_puppy = Puppy('Rufus',5)
+my_puppy = Puppy('Rufus',5, 'Shitzu')
 db.session.add(my_puppy)
 db.session.commit()
 
